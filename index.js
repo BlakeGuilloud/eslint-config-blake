@@ -23,6 +23,13 @@ module.exports = {
     "quotes": ["error", "single"],
     "semi": ["error", "always"],
     "space-infix-ops": ["error", {"int32Hint": false}],
-    "no-dupe-keys": "error"
+    "no-dupe-keys": "error",
+    "comma-dangle": ["error", {
+      "arrays": "never",
+      "objects": "always",
+      "imports": "never",
+      "exports": "never",
+      "functions": "ignore"
+    }]
   }
 }
