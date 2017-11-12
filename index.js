@@ -11,25 +11,27 @@ module.exports = {
   },
   "rules": {
     "camelcase": ["error", { "properties": "always" }],
-    "no-unused-vars": 0,
-    "func-call-spacing": ["error", "never"],
-    "indent": ["error", 2],
-    "no-console": "warn",
-    "no-debugger": "error",
-    "no-multi-spaces": "error",
-    "no-trailing-spaces": "error",
-    "no-undef": "error",
-    "no-whitespace-before-property": "error",
-    "quotes": ["error", "single"],
-    "semi": ["error", "always"],
-    "space-infix-ops": ["error", {"int32Hint": false}],
-    "no-dupe-keys": "error",
     "comma-dangle": ["error", {
       "arrays": "never",
       "objects": "always",
       "imports": "never",
       "exports": "never",
       "functions": "ignore"
-    }]
+    }],
+    "func-call-spacing": ["error", "never"],
+    "indent": ["error", 2, {
+      "SwitchCase": 1
+    }],
+    "no-console": "warn",
+    "no-debugger": "error",
+    "no-dupe-keys": "error",
+    "no-multi-spaces": "error",
+    "no-trailing-spaces": "error",
+    "no-undef": "error",
+    "no-unused-vars": 0,
+    "no-whitespace-before-property": "error",
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "space-infix-ops": ["error", { "int32Hint": false }]
   }
 }
