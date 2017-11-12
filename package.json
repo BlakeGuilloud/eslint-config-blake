@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-blake",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "index.js",
   "author": "Blake Guilloud <blake.guilloud@gmail.com>",
   "description": "My preferred eslint configs",
