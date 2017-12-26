@@ -12,8 +12,8 @@ module.exports = {
   "rules": {
     "camelcase": ["error", { "properties": "always" }],
     "comma-dangle": ["error", {
-      "arrays": "never",
-      "objects": "always",
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
       "imports": "never",
       "exports": "never",
       "functions": "ignore"
